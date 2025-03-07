@@ -1,8 +1,7 @@
 pipeline
 {
   agent any
-  {
-    stages
+  stages
     {
     stage('clone')
     {
@@ -27,4 +26,4 @@ pipeline
     }
   }
 }
-}
+
