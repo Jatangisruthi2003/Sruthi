@@ -8,7 +8,7 @@ pipeline
     {
       steps
       {
-        git''
+        git 'https://github.com/Jatangisruthi2003/Sruthi.git'
       }
     }
     stage('Build')
